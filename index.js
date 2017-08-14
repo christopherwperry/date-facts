@@ -26,8 +26,8 @@ if (leap) {
   leap_status = "is not";
 }
 
-console.log("Today is: " + (chalk.blue(now)) + ".");
-console.log("It is the " + (chalk.magenta(day)) + (chalk.magenta("th")) + " day of the year.");
-console.log("It is " + chalk.greenBright(diffSec) + " seconds into the day.");
+console.log("Today is: " + (chalk.blueBright(now)) + ".");
+console.log("It is the " + (chalk.magentaBright(day)) + (chalk.magentaBright("th")) + " day of the year.");
+console.log("It is " + chalk.cyanBright(diffSec) + " seconds into the day.");
 console.log("It " + (chalk.green(status)) + " during Daylight Savings Time.");
 console.log("It " + (chalk.red(leap_status))+ " a leap year.");
